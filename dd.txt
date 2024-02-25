@@ -1,0 +1,32 @@
+# import pandas as pd
+# df=pd.DataFrame(
+#     {
+#         "name":["hamid","ali","hoddd"],
+#         "Age":[22,30,50],
+#         "sex":["male","male","femaila"]
+#     }
+# )
+import math
+import random
+print(random.randint(8,16))
+print(random.random())
+print(math.sin(14))
+print(max("14589"))
+
+def salambye(name):
+    print("salam",name)
+    print("beybey")
+
+
+
+salambye("morteza")
+salambye("alii")
+def jam(a,b):
+    javab=a+b
+    return javab
+add_aval=4
+add_dovom=7
+jam_doo_add=jam(add_aval,add_dovom)
+print(jam_doo_add)
+def hoghoogh(hour,per_houre):
+    

@@ -1,0 +1,157 @@
+
+def showUserInfo(**kwargs):
+    for key,value in kwargs.items():
+        print(f"{key}  :** {value}")
+    print(kwargs)
+    
+
+showUserInfo(name="mohammad", family="orodookhani",
+           age=23, email="moh96ordo@gmail.com")
+
+
+
+import pdb
+pdb.set_trace()
+
+
+
+
+course = {
+    "title": "Python Course",
+    "teacher": "Mohammad Ordooknani",
+    "Time": 8.5,
+    "videoCount": 30,
+    "tags": ["python", "online course", "free python course"],
+    "shortLink": "toplearn.com/c/o2V3",
+    "sessions": [
+        {
+            "title": "session-1",
+            "time": 5
+        },
+        {
+            "title": "session-2",
+            "time": 7
+        },
+        {
+            "title": "session-3",
+            "time": 9
+        }
+    ],
+    "relatedCourses": [
+        {
+            "title": "Java Course",
+            "teacher": "Mohammad Ghari",
+            "Time": 20,
+            "videoCount": 42,
+            "tags": ["java", "online course", "free java course"],
+            "shortLink": "toplearn.com/c/82m",
+        },
+        {
+            "title": "CSharp Course",
+            "teacher": "Iman Madaeny",
+            "Time": 10,
+            "videoCount": 22,
+            "tags": ["csharp", "online course", "free csharp course"],
+            "shortLink": "toplearn.com/c/mZO",
+        }
+    ]
+}
+
+
+def gee(a,b):
+    try:
+       return a[b]
+    except:
+       return None
+
+print(gee(course,"Time"))
+while True:
+    try:
+        num=int(input('hi man hastam  '))
+    except:
+        print('noo nissttt  ')
+    else:
+        print(' jjddjkjsjds  ')
+        break
+    finally:
+        print("sdjjdjsjddddddd   ")
+
+
+
+class user:
+   usernamed:'mooo'
+   usernd:'moddoo'
+   userage=244
+
+showfullname
+def showfullname(self):
+    return self.usernamed+self.usernd
+alll=user
+alll.showfullname()
+
+
+class User:
+    userNamee = "mohammad"
+    userFamilyy = "ordookhani"
+    userAgee = 24
+
+    def showFullName(self):
+        return f"{self.userName} {self.userFamily}"
+    def __init__(self,userName,userFamily):
+        self.userNamee=userName
+        self.userFamilyy =userFamily
+
+
+
+
+
+class user:
+    activeuser:0
+    def __init__(self,name,family):
+        self.namee=name
+        self.familyy=family
+
+
+class user:
+    def __init__(self,name,family):
+        self.namee=name
+        self.familyy=family
+    def __repr__(self):
+        return f"{self.namee}  {self.familyy}"
+me=user("mohmmad","ordooo")
+print(me)
+
+
+
+
+class person:
+    def __init__(self,aa,bb):
+        self.x=aa
+
+class  user(person):
+    pass
+a=perosn.x()
+b=user()
+
+
+
+
+class person:
+    def __init__(self,name,family,age):
+        self.namee=name
+        self.familyy=family
+        if age>=0:
+            self.agee=age
+        else:
+            self.agee = 0
+me=person("alii","hosni",53)
+print(me.agee)
+
+
+
+
+
+
+
+
+

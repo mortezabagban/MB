@@ -1,0 +1,90 @@
+from tkinter import *
+root=Tk()
+root.title("helooo")
+root.geometry("300x400")
+def clicbuttom():
+    if len(inputFiel.get())==0:
+        label0ne["text"]="pleessss"
+
+    else:
+        label0ne["text"]="hello"+inputFiel.get()
+inputFiel= Entry (root,width=20,font=("arial,20"),bg="coral",justify="center")
+button0ne= Button (root,text="clic me ",padx=50,pady=5,command=clicbuttom,bg="gold",font=("arial,14"))
+lablel0ne=Label(root,text="?????? ",font=("arial,14"),fg="purple",pady=32)
+inputFiel.pack(pady=20)
+button0ne.pack(pady=10)
+lablel0ne.pack()
+root.mainloop()
+
+
+
+
+#
+# def mizann (zaman=int(input("چند ساعت کار میکنی ")),daramad=int(input("میزان در آمد شما چقدر است"))):
+#     if zaman > 8:
+#         return "na heghoog nemigiri"
+#     elif daramad < 2:
+#         return "narooo"
+#     else:
+#         a = zaman * daramad
+#         return a
+#
+# mizann()
+#
+#
+# def hoghoogh(hour,per_hour):
+#     if hour>8:
+#         return "errrrrrrro"
+#     else:
+#         kolle=hour*per_hour
+#         return kolle
+# print(hoghoogh(16,2))
+# n=7
+# while n>0:
+#     n=n-1
+#     print(n)
+# name=input("what is your name ? ")
+# while name!="end":
+#     print("salam",name)
+#     name = input("what is your name ? ")
+# n=3
+# while n>=0:
+#     print(n)
+#     n=n+1
+#     if n==100:
+#         print("oh you reaccc")
+#         break
+#
+# print("kkkkkk")
+# m1=[]
+# for i in range(1,10):
+#     print(i,i*i)
+#     if i==5:
+#         print("IIIII")
+#         break
+m1=[10,20,80]
+count=0
+for tioes in m1 :
+    print(tioes)
+    count=count+1
+
+print("i side ", count, "helloo")
+
+# vard=list(input("vard konn"))
+# vard=int
+
+data_list = []
+s=0
+d=0
+while True:
+    data = float(input())
+    if data == -1:
+        break
+    data_list = [data]
+    for x in data_list:
+        s+=x
+        print(s)
+        d=s/len(data_list)
+        print(d)
+#
+# print(data_list)

@@ -1,0 +1,404 @@
+print("*******************************")
+#passwo'=input("tiss is wass ")
+#while passwo!="1234":
+    #print("your paass")
+    #passwo=input("tiss is wass ")
+print("*******************************")
+item1="python"
+item2="ionic"
+item3="kotlin"
+mylist=[item1,item2,item3]
+print(len(mylist))
+print(mylist[2])
+isexkatlian= "kotlin" in mylist
+print(isexkatlian)
+mycolor=["red","bule","green","gray","yellow","orange",3.6]
+for color in mycolor:
+    if type(color)==str:
+        print(f"the color is:{color}")
+    else:
+           print(f"{color}the color is:")
+print("*******************************")
+index=0
+while index< len(mycolor):
+    print(mycolor[index])
+    index+=2
+print("*******************************")
+mycours=["pyneee","kotlin","inccol"]
+a=mycours.append("ldlss")
+print(mycours)
+mycourss=["pyyho","llldff","kkkk"]
+aaa=mycourss.index("llldff")
+print(aaa)
+myrang=["red","gree","blue"]
+copymyrang=myrang.reverse()
+print(myrang)
+print("*******************************")
+mynumber=[1,2,3,4,40,88]
+doubele_mynuber=[]
+#for num in mynumber:
+   # doubele_mynuber.append(num*2)
+doubele_mynuber=[num*2 for num in mynumber]
+print(mynumber)
+print(doubele_mynuber)
+myname="mohammad"
+namecharacters=[char.upper() for char in myname]
+a=namecharacters.reverse()
+even=[num for num in mynumber if num%2==0]
+print(even)
+print(a)
+
+print(namecharacters)
+print("*******************************")
+#passwo'=input("tiss is wass ")
+#while passwo!="1234":
+    #print("your paass")
+    #passwo=input("tiss is wass ")
+print("*******************************")
+item1="python"
+item2="ionic"
+item3="kotlin"
+mylist=[item1,item2,item3]
+print(len(mylist))
+print(mylist[2])
+isexkatlian= "kotlin" in mylist
+print(isexkatlian)
+mycolor=["red","bule","green","gray","yellow","orange",3.6]
+for color in mycolor:
+    if type(color)==str:
+        print(f"the color is:{color}")
+    else:
+           print(f"{color}the color is:")
+print("*******************************")
+index=0
+while index< len(mycolor):
+    print(mycolor[index])
+    index+=2
+print("*******************************")
+mycours=["pyneee","kotlin","inccol"]
+a=mycours.append("ldlss")
+print(mycours)
+mycourss=["pyyho","llldff","kkkk"]
+aaa=mycourss.index("llldff")
+print(aaa)
+myrang=["red","gree","blue"]
+copymyrang=myrang.reverse()
+print(myrang)
+print("*******************************")
+mynumber=[1,2,3,4,40,88]
+doubele_mynuber=[]
+#for num in mynumber:
+   # doubele_mynuber.append(num*2)
+doubele_mynuber=[num*2 for num in mynumber]
+print(mynumber)
+print(doubele_mynuber)
+myname="mohammad"
+namecharacters=[char.upper() for char in myname]
+a=namecharacters.reverse()
+even=[num for num in mynumber if num%2==0]
+print(even)
+print(a)
+
+print(namecharacters)
+
+numberr=[1,2,3,4]
+newnnumbers=[[1,2,3],[4,6,8]]
+index_1=newnnumbers[0]
+index_2=newnnumbers[1]
+print(newnnumbers[1])
+print(index_2)
+print(index_1)
+numberw=newnnumbers[1][2]
+print(numberw)
+print("*******************************")
+for li in newnnumbers:
+    for numm in li:
+        print(numm)
+print("*******************************")
+qoo=[num for num in range(1,4)]
+qooliss=[["x" if newnumm%2==0 else "o" for newnumm in range(1,4)] for num in range(1,4)]
+print(qooliss)
+print("*******************************")
+mydicshneri:{
+    "name":"aalii",
+    "countt":3,
+    "pricce":2500
+}
+me={
+    "name":"mohammad",
+    "family":"mohammadiii",
+     "age":24
+}
+print(me.values())
+print(me.keys())
+mydicshne=dict(name="neewwww")
+print(mydicshne)
+for key  in me.keys():
+    print(key)
+isexit="name"in me
+
+if  "email" in  me:
+    print(me["email"])
+else:
+    print("nooooo")
+isname="mohammad"  in me.values()
+print(isname)
+newuser={"name":"unkum","family":"uunnkum"}
+newuser2=dict.fromkeys(["name","fmily"],"unkum")
+print(newuser2)
+print(me.get("name"))
+me.popitem()
+me.popitem()
+
+print("*******************************")
+secend={}
+secend.update(me)
+print(secend)
+course = {
+    "title": "Python Course",
+    "teacher": "Mohammad Ordooknani",
+    "Time": 8.5,
+    "videoCount": 30,
+    "tags": ["python", "online course", "free python course"],
+    "shortLink": "toplearn.com/c/o2V3",
+    "sessions": [
+        {
+            "title": "session-1",
+            "time": 5
+        },
+        {
+            "title": "session-2",
+            "time": 7
+        },
+        {
+            "title": "session-3",
+            "time": 9
+        }
+    ],
+    "relatedCourses": [
+        {
+            "title": "Java Course",
+            "teacher": "Mohammad Ghari",
+            "Time": 20,
+            "videoCount": 42,
+            "tags": ["java", "online course", "free java course"],
+            "shortLink":"toplearn.com/c/82m",
+        },
+        {
+            "title": "CSharp Course",
+            "teacher": "Iman Madaeny",
+            "Time": 10,
+            "videoCount": 22,
+            "tags": ["csharp", "online course", "free csharp course"],
+            "shortLink":"toplearn.com/c/mZO",
+        }
+    ]
+}
+
+#print(course["teacher"])
+for relatedd in course["teacher"]:
+    print(relatedd["title"])
+total_time=0
+for session in course["session"]:
+      total_time+=session["time"]
+      print(total_time)
+
+
+nuber=dict(firt=1,session=25,trid=3)
+squrrrnubeerr={key:value**2 for key,value  in  nuber.items()}
+print(squrrrnubeerr)
+ddoubel={num:num  for num in [1,2,3,4,5]}
+ddoubel={num:("even"  if num %2==0 else "odd")  for num in [1,2,3,4,5]}
+print(ddoubel)
+newtuple=tuple([1,2,3,(12,5,21,1),122])
+print(newtuple)
+for num in newtuple:
+ print(num)
+ print('*******************')
+ ann=0
+ while num is newtuple:
+     print(ann=num)
+     break
+print('*******************')
+print(newtuple.count('nnn'))
+print(ann)
+print(newtuple[3][1])
+
+
+
+
+
+def  sumnumber(name=input.str('wriht  '),*ages):
+    ttal=0
+    for numm in ages:
+      ttal+=numm
+    print(name)
+    return ttal
+
+
+
+print(sumnumber('dd',4,5))
+
+
+
+
+
+
+
+number=[2,3,4,5,6,8]
+doubel=map(lambda x:x*2,number)
+print(doubel)
+#doual=[]
+#3for num in number:
+#  doual.append(num*2)#
+#  #(doual)
+
+
+
+
+
+
+class user:
+   axtivixount= 0
+   def __init__(self,usirNami,usirFamily):
+       self.nami=usirNami
+       self.family=usirFamily
+       user.axtivixount+=1
+   def logout(self):
+       print(f"{self.nami} inja iran istt")
+print(user.axtivixount)
+aaf=user("mohaaaf","orffokhani")
+sa=user("sara","mohamsf")
+
+
+
+
+count=1
+while count<=10:
+    print(count)
+    count+=1
+    break
+
+number=0
+while True:
+    number+=1
+    if number>20:
+        print("game over")
+        break
+    if number % 7 == 0:
+        print("hob")
+        continue
+    print(number)
+else:
+    pass
+for i in range(10):
+    for j in range(i,10):
+        print(j,end=" ")
+    print()
+
+
+
+import numpy as np
+import pandas as pd
+aaa=pd.Series([1,2,3,"jadi",0,np.nan,-1])
+a=np.array(15)
+print(a)
+a=np.arange(20)
+print(a)
+a.reshape(2,5,2)
+print(a.shape)
+print(a.ndim)
+print(a.size)
+print(a.dtype)
+print(a)
+d=pd.date_range("20210101",periods=6)
+df=pd.DataFrame(np.random.randn(6,4),index=d,columns=["a","b","c","d"])
+print(aaa)
+print(d)
+print(df)
+print(df["a"])
+print(df.dtypes)
+print(df.head(2))
+ab=df.describe()
+print(ab)
+sa=df.mean()
+s=df.T
+aas=df.T
+a1=df[df["a"]>0]
+print(a1)
+print(sa)
+
+#df.to_excel("C:/Users/Morteza/Downloads/Telegram Desktop/New folder (2)/ggss.xlsx")
+
+a=None
+print((r"ooififoifid\n"))
+number=100
+dive=34
+qu=number//dive
+result=number%dive
+print(result)
+label="even" if number%2==0 else "odd"
+print(label)
+if a is None:
+ print("heloo")
+else:
+     print("hiii")
+print("**********************************************************************")
+ass=[1,2,3,4,5,6,7]
+print(4 in ass)
+print("**********************************************************************")
+(a1,a2,a3)=("w",1,66)
+av={
+    "ali":"hoshni",
+    "mohammad":"bagheri",
+     "alo":"d,aswqdda"
+}
+del av["ali"]
+print(av)
+
+
+
+# 1conutr=1
+# while in conutr<=100:
+#     print(conutr)
+#     conutr+=1+ "*"
+#
+count = 1
+while count <= 10:
+    print(count)
+    count += 1
+
+number = 0
+while True:
+    number += 1
+    if number > 20:
+        print("game over")
+        break
+    if number % 7==0:
+        print("hob")
+    continue
+    print(number)
+else:
+    pass
+for i in range(10):
+    for j in range(i,10):
+        for k in range (j,11):
+          print(j,end="  ")
+    print()
+
+
+names=["hamed","ali","hossine","japar","sara"]
+text="kdjl,ja,lhjklhj,fcbhj,kkky,htttdgd,tdtggh"
+a=[-1,2,3,4,5,-6]
+a_positive=list(map(abs ,a))
+print(a_positive)
+sty=zip(names,a)
+print (list(sty))
+print(list(enumerate(a)))
+print("***************************************")
+
+print(text.capitalize())
+point=[(x,3*x**2-6*x+4) for x in range(1,10)]
+point_list=('(x:{},y:{})' .format(x,y) for x,y in point )
+print(point_list)
+print(point)
